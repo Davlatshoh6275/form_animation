@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form-conteiner {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612935381_101-p-fon-abstraktsiya-geometriya-krasnii-124.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  perspective: 1000px;
+}
+
+.form-conteiner form {
+  height: 450px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  transform-style: preserve-3d;
+}
+
+.form-conteiner form h3 {
+  font-size: 30px;
+  padding: 30px 0;
+  color: #ccc;
+  letter-spacing: 3px;
+}
+
+.form-conteiner form i {
+  padding: 0.5px;
+  font-size: 20px;
+  color: #bbb;
+}
+
+.form-conteiner form input[type="submit"] {
+  width: 90%;
+  cursor: pointer;
+  background: linear-gradient(90deg, deeppink, blueviolet);
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.form-conteiner form input[type="submit"]:hover {
+  letter-spacing: 4px;
+}
+
+.form-conteiner form input {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 82%;
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+  font-size: 17px;
+  padding: 0 10px;
+  margin: 15px 0;
+  letter-spacing: 1px;
+  border-radius: 15px;
+
+
+}
